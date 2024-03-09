@@ -5,7 +5,7 @@
 ➼Entered input is stored in input_text, if the variable is empty then a warning message is displayed else it is inserted in the listbox of python to-do list.
 ➼deletetask() is used to delete a selected item, listbox_task.curselection() function returns a tuple in which the first element is the index of the selected item. Then, delete() function is used to delete the item corresponding to the index in python to do list application
 ➼markcompleted() is used to mark an item in to-do list as completed. In this function, we store the contents of the selected task in a variable called temp_marked.
-➼We update the value by adding a ” ✔” at the end. After this, the delete() function deletes the selected task, and insert() function inserts the updated value at that particular index.
+➼We update the value by adding a ” ✔” at the end. After this, the delete() function deletes the selected task, and insert() function inserts the updated value at that particular index. 
 ➼Tk() is a top-level widget which is used to create the main application window in which we will be building python to-do list application.
 ➼The title() method is used to give a name to our application which is basically displayed at the top.
 ➼Frame() method is basically a container widget within our main window and it is used to hold different widgets. It takes an argument that is our main window.
